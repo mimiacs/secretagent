@@ -25,7 +25,8 @@ div, section {
 }
 
 .logo img {
-  padding-right: 25px;
+  padding-right: 15px;
+  height: 1.5em;
 }
 
 .container {
@@ -133,4 +134,27 @@ footer {
   color: white;
   padding: 5em 0;
   margin-top: 4em;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product .glasses {
+    display: none;
+  }
 }
